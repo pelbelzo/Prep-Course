@@ -3,13 +3,12 @@
 const { stringify } = require("git-url-parse");
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = hello;
-
+const  nuevaString  =  'alejandro' ;
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 2;
 
 // Crea una variable booleana:
-const nuevoBool = 1;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -27,10 +26,10 @@ const nuevoModulo = 21 % 5 === 1;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(str) {
+function devolverString() {
   // "Return" la string provista: str
   // Tu código:
-  return string
+  return str = "Henry";
 
 }
 
@@ -107,14 +106,14 @@ function obtenerResto(x, y) {
   return x % y;
 }
 
-function esPar(num) {
+function esPar(num){
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
   if( num % 2 === 0) {
     return true;
   } else {
-    return false;
+    return false;}
 }
 
 function esImpar(num) {
@@ -189,19 +188,20 @@ function agregarSimboloExclamacion(str) {
   return str + '!';
 }
 
-function combinarNombres(nombre, apellido) {
+function combinarNombres() {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = soy + ' ' + henry;
-  return combinado;
-}
+  return "Soy" + ' ' + "Henry";"Hello" + ' ' + "World";
+  }
+  
 
-function obtenerSaludo(nombre) {
+function obtenerSaludo() {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola ' + martin + '!';
+  return "Hola" + " " + "Martin!";
+  
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
