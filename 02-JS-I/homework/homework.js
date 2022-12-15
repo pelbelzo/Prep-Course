@@ -1,5 +1,6 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { log } = require("@11ty/eleventy/src/EleventyErrorHandler");
 const { stringify } = require("git-url-parse");
 
 // Crea una variable "string", puede contener lo que quieras:
@@ -188,14 +189,15 @@ function agregarSimboloExclamacion(str) {
   return str + '!';
 }
 
+
 function combinarNombres() {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return "Soy" + ' ' + "Henry";"Hello" + ' ' + "World";
-  }
+  var combinado = 'Soy' + ' ' + 'Henry';
+  return combinado ;
+   }
   
-
 function obtenerSaludo() {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
